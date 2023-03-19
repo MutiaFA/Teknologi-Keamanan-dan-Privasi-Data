@@ -38,7 +38,7 @@ def decrypt(ciphertext, key):
     return plaintext
 
 plaintext = "118"
-key = "rahasia"
+key = "mutia"
 ciphertext = encrypt(plaintext, key)
 print("Ciphertext:", ciphertext)
 decrypted_text = decrypt(ciphertext, key)
